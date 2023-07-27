@@ -7,6 +7,11 @@
     <link rel="icon" type="image/png" sizes="16x16" href="icon16.png"/>
     <link rel="icon" type="image/png" sizes="32x32" href="icon32.png"/>
     <style>
+        @font-face {
+            font-family: "Roboto";
+            src("./Roboto-Regular.ttf");
+        }
+
         img {
             display: block;
             margin-left: auto;
@@ -15,9 +20,24 @@
             width: 15%;
             height: 15%;
         }
+
+        h1, h2 {
+            color: red;
+            text-align: center;
+            font-family: "Roboto", sans-serif;
+        }
+
+        @media (max-width: 1024px) {
+            img {
+                width: 35%;
+                height: 35%;
+            }
+        }
     </style>
 </head>
 <body>
-    <img alt="Canada Insight" src="coming-soon.svg"/>
+    <img alt="Canada Insight" src="canada_leaf.svg"/>
+    <h1>Canada Insight</h1>
+    <h2>Coming soon</h2>
 </body>
 </html>
